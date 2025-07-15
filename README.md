@@ -12,7 +12,6 @@ It showcases a modern architecture using SwiftUI, UIKit scene delegates, CarPlay
 - ✅ Interactive CarPlay UI with Contacts, Recents, and Favorites tabs
 - ✅ Voice control template presentation on CarPlay during calls
 - ✅ SwiftUI-based phone app UI with outgoing and simulated incoming calls
-- ✅ Mute, hold, and end call functionalities
 - ✅ Seamless integration between SwiftUI and UIKit (scene delegates)
 - ✅ Clean separation of CarPlay and phone scene logic
 

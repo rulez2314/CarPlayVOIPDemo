@@ -166,9 +166,19 @@ class CarPlayManager: ObservableObject {
     }
     
     func presentCallTemplate(for call: Call) {
-        let callTemplate = createCallTemplate(for: call)
-        interfaceController?.presentTemplate(callTemplate, animated: true, completion: nil)
+        guard let interfaceController = interfaceController else { return }
+
+        if let currentTemplate = interfaceController.templates.last {
+            interfaceController.popTemplate(animated: true, completion: {_,_ in 
+                let callTemplate = self.createCallTemplate(for: call)
+                interfaceController.presentTemplate(callTemplate, animated: true, completion: nil)
+            })
+        } else {
+            let callTemplate = createCallTemplate(for: call)
+            interfaceController.presentTemplate(callTemplate, animated: true, completion: nil)
+        }
     }
+
     
     private func createCallTemplate(for call: Call) -> CPVoiceControlTemplate {
         let voiceControlStates = [

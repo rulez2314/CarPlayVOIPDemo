@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B686932E2682C200B5ADD9 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B6868C2E2682A000B5ADD9 /* CallKit.framework */; };
+		B9B686972E2683DE00B5ADD9 /* CarPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B6868A2E26829300B5ADD9 /* CarPlay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9B6866A2E267F3D00B5ADD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B686542E267F3B00B5ADD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B6865B2E267F3B00B5ADD9;
+			remoteInfo = CarPlayVOIPDemo;
+		};
+		B9B686742E267F3D00B5ADD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B686542E267F3B00B5ADD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B6865B2E267F3B00B5ADD9;
+			remoteInfo = CarPlayVOIPDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9B6865C2E267F3B00B5ADD9 /* CarPlayVOIPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPlayVOIPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B686692E267F3D00B5ADD9 /* CarPlayVOIPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPlayVOIPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B686732E267F3D00B5ADD9 /* CarPlayVOIPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPlayVOIPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B6868A2E26829300B5ADD9 /* CarPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarPlay.framework; path = System/Library/Frameworks/CarPlay.framework; sourceTree = SDKROOT; };
+		B9B6868C2E2682A000B5ADD9 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
+		B9B6868E2E2682B600B5ADD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B9B686882E267FE500B5ADD9 /* Exceptions for "CarPlayVOIPDemo" folder in "CarPlayVOIPDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B9B6865B2E267F3B00B5ADD9 /* CarPlayVOIPDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B9B6865E2E267F3B00B5ADD9 /* CarPlayVOIPDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B9B686882E267FE500B5ADD9 /* Exceptions for "CarPlayVOIPDemo" folder in "CarPlayVOIPDemo" target */,
+			);
+			path = CarPlayVOIPDemo;
+			sourceTree = "<group>";
+		};
+		B9B6866C2E267F3D00B5ADD9 /* CarPlayVOIPDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CarPlayVOIPDemoTests;
+			sourceTree = "<group>";
+		};
+		B9B686762E267F3D00B5ADD9 /* CarPlayVOIPDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CarPlayVOIPDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B686592E267F3B00B5ADD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B686932E2682C200B5ADD9 /* CallKit.framework in Frameworks */,
+				B9B686972E2683DE00B5ADD9 /* CarPlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B686662E267F3D00B5ADD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B686702E267F3D00B5ADD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B686532E267F3B00B5ADD9 = {
+			isa = PBXGroup;
+			children = (
+				B9B6865E2E267F3B00B5ADD9 /* CarPlayVOIPDemo */,
+				B9B6866C2E267F3D00B5ADD9 /* CarPlayVOIPDemoTests */,
+				B9B686762E267F3D00B5ADD9 /* CarPlayVOIPDemoUITests */,
+				B9B686892E26829300B5ADD9 /* Frameworks */,
+				B9B6865D2E267F3B00B5ADD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B6865D2E267F3B00B5ADD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B6865C2E267F3B00B5ADD9 /* CarPlayVOIPDemo.app */,
+				B9B686692E267F3D00B5ADD9 /* CarPlayVOIPDemoTests.xctest */,
+				B9B686732E267F3D00B5ADD9 /* CarPlayVOIPDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B686892E26829300B5ADD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B6868E2E2682B600B5ADD9 /* AVFoundation.framework */,
+				B9B6868C2E2682A000B5ADD9 /* CallKit.framework */,
+				B9B6868A2E26829300B5ADD9 /* CarPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9B6865B2E267F3B00B5ADD9 /* CarPlayVOIPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B6867D2E267F3D00B5ADD9 /* Build configuration list for PBXNativeTarget "CarPlayVOIPDemo" */;
+			buildPhases = (
+				B9B686582E267F3B00B5ADD9 /* Sources */,
+				B9B686592E267F3B00B5ADD9 /* Frameworks */,
+				B9B6865A2E267F3B00B5ADD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B9B6865E2E267F3B00B5ADD9 /* CarPlayVOIPDemo */,
+			);
+			name = CarPlayVOIPDemo;
+			packageProductDependencies = (
+			);
+			productName = CarPlayVOIPDemo;
+			productReference = B9B6865C2E267F3B00B5ADD9 /* CarPlayVOIPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9B686682E267F3D00B5ADD9 /* CarPlayVOIPDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B686802E267F3D00B5ADD9 /* Build configuration list for PBXNativeTarget "CarPlayVOIPDemoTests" */;
+			buildPhases = (
+				B9B686652E267F3D00B5ADD9 /* Sources */,
+				B9B686662E267F3D00B5ADD9 /* Frameworks */,
+				B9B686672E267F3D00B5ADD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B6866B2E267F3D00B5ADD9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B9B6866C2E267F3D00B5ADD9 /* CarPlayVOIPDemoTests */,
+			);
+			name = CarPlayVOIPDemoTests;
+			packageProductDependencies = (
+			);
+			productName = CarPlayVOIPDemoTests;
+			productReference = B9B686692E267F3D00B5ADD9 /* CarPlayVOIPDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9B686722E267F3D00B5ADD9 /* CarPlayVOIPDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B686832E267F3D00B5ADD9 /* Build configuration list for PBXNativeTarget "CarPlayVOIPDemoUITests" */;
+			buildPhases = (
+				B9B6866F2E267F3D00B5ADD9 /* Sources */,
+				B9B686702E267F3D00B5ADD9 /* Frameworks */,
+				B9B686712E267F3D00B5ADD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B686752E267F3D00B5ADD9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B9B686762E267F3D00B5ADD9 /* CarPlayVOIPDemoUITests */,
+			);
+			name = CarPlayVOIPDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = CarPlayVOIPDemoUITests;
+			productReference = B9B686732E267F3D00B5ADD9 /* CarPlayVOIPDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B686542E267F3B00B5ADD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					B9B6865B2E267F3B00B5ADD9 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					B9B686682E267F3D00B5ADD9 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = B9B6865B2E267F3B00B5ADD9;
+					};
+					B9B686722E267F3D00B5ADD9 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = B9B6865B2E267F3B00B5ADD9;
+					};
+				};
+			};
+			buildConfigurationList = B9B686572E267F3B00B5ADD9 /* Build configuration list for PBXProject "CarPlayVOIPDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9B686532E267F3B00B5ADD9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B9B6865D2E267F3B00B5ADD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B6865B2E267F3B00B5ADD9 /* CarPlayVOIPDemo */,
+				B9B686682E267F3D00B5ADD9 /* CarPlayVOIPDemoTests */,
+				B9B686722E267F3D00B5ADD9 /* CarPlayVOIPDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9B6865A2E267F3B00B5ADD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B686672E267F3D00B5ADD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B686712E267F3D00B5ADD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B686582E267F3B00B5ADD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B686652E267F3D00B5ADD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B6866F2E267F3D00B5ADD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9B6866B2E267F3D00B5ADD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B6865B2E267F3B00B5ADD9 /* CarPlayVOIPDemo */;
+			targetProxy = B9B6866A2E267F3D00B5ADD9 /* PBXContainerItemProxy */;
+		};
+		B9B686752E267F3D00B5ADD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B6865B2E267F3B00B5ADD9 /* CarPlayVOIPDemo */;
+			targetProxy = B9B686742E267F3D00B5ADD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B9B6867B2E267F3D00B5ADD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9B6867C2E267F3D00B5ADD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9B6867E2E267F3D00B5ADD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarPlayVOIPDemo/CarPlayVOIPDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYQ98BC3EV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarPlayVOIPDemo/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access for voice calls";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaaaa.CarPlayVOIPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9B6867F2E267F3D00B5ADD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarPlayVOIPDemo/CarPlayVOIPDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYQ98BC3EV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarPlayVOIPDemo/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access for voice calls";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaaaa.CarPlayVOIPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9B686812E267F3D00B5ADD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.CarPlayVOIPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarPlayVOIPDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarPlayVOIPDemo";
+			};
+			name = Debug;
+		};
+		B9B686822E267F3D00B5ADD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.CarPlayVOIPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarPlayVOIPDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarPlayVOIPDemo";
+			};
+			name = Release;
+		};
+		B9B686842E267F3D00B5ADD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.CarPlayVOIPDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarPlayVOIPDemo;
+			};
+			name = Debug;
+		};
+		B9B686852E267F3D00B5ADD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.CarPlayVOIPDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarPlayVOIPDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B686572E267F3B00B5ADD9 /* Build configuration list for PBXProject "CarPlayVOIPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B6867B2E267F3D00B5ADD9 /* Debug */,
+				B9B6867C2E267F3D00B5ADD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B6867D2E267F3D00B5ADD9 /* Build configuration list for PBXNativeTarget "CarPlayVOIPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B6867E2E267F3D00B5ADD9 /* Debug */,
+				B9B6867F2E267F3D00B5ADD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B686802E267F3D00B5ADD9 /* Build configuration list for PBXNativeTarget "CarPlayVOIPDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B686812E267F3D00B5ADD9 /* Debug */,
+				B9B686822E267F3D00B5ADD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B686832E267F3D00B5ADD9 /* Build configuration list for PBXNativeTarget "CarPlayVOIPDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B686842E267F3D00B5ADD9 /* Debug */,
+				B9B686852E267F3D00B5ADD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9B686542E267F3B00B5ADD9 /* Project object */;
+}
